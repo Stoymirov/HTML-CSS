@@ -1,0 +1,35 @@
+body{
+    background: #369;
+    color: #c94848;
+}
+p{
+    color:black;
+}
+ul li{
+    color: red;
+}
+a{
+    color: white;
+}
+a[href^="http"]{
+    color: orange;
+}
+
+
+.box{
+    background:white;
+}
+.warning{
+color: red;
+}
+h1.amazing{
+    font-size: 20px;
+   
+}
+.amazing{
+    color: black;
+}
+#header_my-html-document-title {
+    color: lime;
+}
+
