@@ -1,0 +1,53 @@
+html{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 0 0;
+    line-height: 1.5em;
+}
+body,button,input{
+   font:inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-weight: normal;
+    
+}
+
+    h1{ font-size: 3.0em;}
+    h2{ font-size: 2.4em;}
+    h3{ font-size: 1.8em;}
+    h4{ font-size: 1.4em;font-weight: bold;}
+    h5{ font-size: 1.2em;font-weight: bold;}
+    h6{ font-size: 1em;}
+p,*+ol,*+ul{
+    margin-bottom: 1.5em;
+}
+ul,ol{
+    list-style-position: inside;
+}
+ul,blockquote,ol{
+   padding-left: 1.5em;
+}
+blockquote p:first-child::before,
+blockquote:has(.author) p:nth-child(2):not(.author)::after,
+blockquote p:nth-child(1):not(.author)::after
+{
+display: inline-block;
+content: '"';
+}
+blockquote{
+    color:#666;
+    border-left: 4px solid #ccc;
+    font-style:italic;
+    margin-bottom: 1.5em;
+}
+blockquote .author{
+    text-align: right;
+    color: #111;
+}
+blockquote .author::before{
+    display: inline-block;
+    content: '—';
+    margin-right: 10px;
+}
