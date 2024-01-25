@@ -1,0 +1,23 @@
+body{
+    background-color: #cccccc;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    background-color: #444;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0px;
+    margin:0px
+}
+li{
+    font: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
