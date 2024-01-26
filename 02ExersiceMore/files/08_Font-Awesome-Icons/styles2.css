@@ -1,0 +1,26 @@
+body{
+    font-size: 14px;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+nav{
+    width: 200px;
+    background-color: #f3f3f3;
+    padding: 8px 10px;
+    border: 1px solid #000;
+    line-height: 20px;
+}
+li{
+    list-style: none;
+    line-height: 25px;
+    margin-left: -15px;
+}
+a{
+    list-style-type: none;
+    color: rgb(186, 67, 67);
+    text-decoration: none;
+}
+
+i{
+    list-style-type:none ;
+}
