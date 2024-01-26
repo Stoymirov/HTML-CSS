@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+body{
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #079992;
+}
+h1{
+    font-family: 'Rubik Burned', system-ui;
+    font-weight: normal;
+    line-height: 1.15;
+    color:#4a69bd
+}
+span{
+    font-family: 'Rubik Burned', system-ui;
+    font-style: oblique;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #fad390;
+    font-weight: 600;
+}
+p{
+    
+    font-family: 'Rubik Burned', system-ui;
+    font-style: oblique;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #fad390;
+    font-weight: 400;
+
+}
